@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export function Header({ resort, lastUpdate }: HeaderProps) {
   return (
-    <header className="relative mb-4 -mx-4 -mt-4 px-4 pt-6 pb-4 overflow-hidden">
+    <header className="relative mb-4 -mx-4 -mt-4 px-4 pt-5 pb-8 overflow-hidden">
       {/* Background gradient */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-700 to-indigo-900"
@@ -17,47 +17,36 @@ export function Header({ resort, lastUpdate }: HeaderProps) {
 
       {/* Mountain silhouette */}
       <svg
-        className="absolute bottom-0 left-0 right-0 w-full h-16 text-gray-50 opacity-100"
-        viewBox="0 0 400 60"
+        className="absolute bottom-0 left-0 right-0 w-full h-12 text-gray-50"
+        viewBox="0 0 400 40"
         preserveAspectRatio="none"
         aria-hidden="true"
       >
         <path
           fill="currentColor"
-          d="M0 60 L0 45 L40 30 L80 42 L120 20 L160 35 L200 15 L240 32 L280 22 L320 38 L360 25 L400 40 L400 60 Z"
-        />
-      </svg>
-
-      {/* Decorative peaks in background */}
-      <svg
-        className="absolute bottom-0 left-0 right-0 w-full h-24 text-white/5"
-        viewBox="0 0 400 80"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <path
-          fill="currentColor"
-          d="M0 80 L0 60 L50 35 L100 55 L150 25 L200 45 L250 20 L300 50 L350 30 L400 55 L400 80 Z"
+          d="M0 40 L0 30 L40 20 L80 28 L120 12 L160 22 L200 8 L240 20 L280 14 L320 25 L360 16 L400 26 L400 40 Z"
         />
       </svg>
 
       {/* Content */}
       <div className="relative z-10">
-        <div className="flex items-center gap-2 mb-1">
-          <Mountain className="w-5 h-5 text-white/70" />
-          <span className="text-xs font-medium text-white/60 uppercase tracking-wider">
-            Ski Status
-          </span>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Mountain className="w-5 h-5 text-white/70" />
+            <span className="text-xs font-medium text-white/60 uppercase tracking-wider">
+              Ski Status
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5 text-white/60">
+            <Clock className="w-3 h-3" />
+            <span className="text-xs">
+              {formatTimestamp(lastUpdate)}
+            </span>
+          </div>
         </div>
-        <h1 className="text-2xl font-bold text-white tracking-tight">
+        <h1 className="text-2xl font-bold text-white tracking-tight mt-2">
           {resort}
         </h1>
-        <div className="flex items-center gap-1.5 mt-2 text-white/60">
-          <Clock className="w-3.5 h-3.5" />
-          <p className="text-xs">
-            {formatTimestamp(lastUpdate)}
-          </p>
-        </div>
       </div>
     </header>
   );
