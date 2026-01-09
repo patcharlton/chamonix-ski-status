@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { SkiData } from "@/types/ski-data";
 import { Header } from "@/components/Header";
 import { Recommendation } from "@/components/Recommendation";
+import { SkiGearRecommendation } from "@/components/SkiGearRecommendation";
 import { StatsBar } from "@/components/StatsBar";
 import { AvalancheAlert } from "@/components/AvalancheAlert";
 import { DomainList } from "@/components/DomainList";
@@ -74,6 +75,8 @@ export default function Home() {
           lifts={data.lifts}
           pistes={data.pistes}
         />
+
+        <SkiGearRecommendation weather={data.weather} />
 
         <AvalancheAlert risk={avalancheRisk} />
 
