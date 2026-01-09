@@ -1,5 +1,5 @@
 import { WeatherStation } from "@/types/ski-data";
-import { formatTemp, getWindArrow, getSnowQualityLabel } from "@/lib/utils";
+import { getWindArrow, getSnowQualityLabel } from "@/lib/utils";
 
 interface CurrentWeatherProps {
   station: WeatherStation;
