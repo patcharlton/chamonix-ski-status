@@ -62,14 +62,6 @@ export function QuickStats({ summary, weather }: QuickStatsProps) {
         </div>
       )}
 
-      {/* Wind (only show if notable) */}
-      {maxWind > 20 && (
-        <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-2.5 py-1.5 shrink-0">
-          <Wind className={`w-4 h-4 ${maxWind > 40 ? 'text-amber-500' : 'text-gray-500'}`} />
-          <span className="text-sm font-semibold text-gray-900">{maxWind}km/h</span>
-        </div>
-      )}
-
       {/* Avalanche Risk (only show if elevated) */}
       {avalancheRisk >= 3 && (
         <div className={`flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 shrink-0 ${
@@ -85,6 +77,14 @@ export function QuickStats({ summary, weather }: QuickStatsProps) {
           }`}>
             {avalancheRisk}/5
           </span>
+        </div>
+      )}
+
+      {/* Wind (only show if notable) */}
+      {maxWind > 20 && (
+        <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-2.5 py-1.5 shrink-0">
+          <Wind className={`w-4 h-4 ${maxWind > 40 ? 'text-amber-500' : 'text-gray-500'}`} />
+          <span className="text-sm font-semibold text-gray-900">{maxWind}km/h</span>
         </div>
       )}
     </div>
