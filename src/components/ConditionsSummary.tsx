@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useState, useMemo } from "react";
 import { WeatherStation } from "@/types/ski-data";
 
 interface ConditionsSummaryProps {
@@ -234,6 +234,7 @@ function getOverallCondition(weather: WeatherStation[]): { emoji: string; label:
 }
 
 export function ConditionsSummary({ weather }: ConditionsSummaryProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const insights = useMemo(() => generateInsights(weather), [weather]);
   const overall = useMemo(() => getOverallCondition(weather), [weather]);
 
@@ -243,38 +244,59 @@ export function ConditionsSummary({ weather }: ConditionsSummaryProps) {
     low: "border-l-gray-300 bg-gray-50",
   };
 
+  const topInsight = insights[0];
+
   return (
     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4 shadow-sm">
-      {/* Header */}
-      <div className="p-4 border-b border-gray-100">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-xl">🏔️</span>
-            <h3 className="font-semibold text-gray-900">Conditions Today</h3>
+      {/* Collapsible Header */}
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full p-3 flex items-center justify-between hover:bg-gray-50 transition-colors"
+      >
+        <div className="flex items-center gap-3">
+          <span className="text-lg">{overall.emoji}</span>
+          <div className="text-left">
+            <h3 className="font-medium text-gray-900 text-sm">Conditions Today</h3>
+            <p className="text-xs text-gray-500">
+              {topInsight ? `${topInsight.icon} ${topInsight.title}` : overall.label}
+              {insights.length > 1 && ` +${insights.length - 1} more`}
+            </p>
           </div>
-          <span className={`text-sm px-3 py-1 rounded-full font-medium ${overall.color}`}>
-            {overall.emoji} {overall.label}
-          </span>
         </div>
-      </div>
-
-      {/* Insights Grid */}
-      <div className="p-4 space-y-3">
-        {insights.map((insight, i) => (
-          <div
-            key={i}
-            className={`border-l-4 rounded-r-lg p-3 ${priorityStyles[insight.priority]}`}
+        <div className="flex items-center gap-2">
+          <span className={`text-xs px-2 py-0.5 rounded-full ${overall.color}`}>
+            {overall.label}
+          </span>
+          <svg
+            className={`w-4 h-4 text-gray-400 transition-transform ${isExpanded ? "rotate-180" : ""}`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
-            <div className="flex items-start gap-3">
-              <span className="text-xl shrink-0">{insight.icon}</span>
-              <div>
-                <h4 className="font-medium text-gray-900 text-sm">{insight.title}</h4>
-                <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">{insight.description}</p>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </button>
+
+      {/* Expanded Insights */}
+      {isExpanded && (
+        <div className="p-3 pt-0 space-y-2 border-t border-gray-100">
+          {insights.map((insight, i) => (
+            <div
+              key={i}
+              className={`border-l-4 rounded-r-lg p-2.5 ${priorityStyles[insight.priority]}`}
+            >
+              <div className="flex items-start gap-2">
+                <span className="text-base shrink-0">{insight.icon}</span>
+                <div>
+                  <h4 className="font-medium text-gray-900 text-sm">{insight.title}</h4>
+                  <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">{insight.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
