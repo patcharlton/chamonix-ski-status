@@ -79,11 +79,11 @@ export default function Home() {
 
         <ConditionsSummary weather={data.weather} />
 
-        <SkiGearRecommendation weather={data.weather} />
-
         <AvalancheAlert risk={avalancheRisk} />
 
         <StatsBar summary={data.calculated_summary} weather={data.weather} />
+
+        <SkiGearRecommendation weather={data.weather} />
 
         <section>
           <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">

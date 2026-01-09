@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useState, useMemo } from "react";
 import { WeatherStation } from "@/types/ski-data";
 
 interface SkiGearRecommendationProps {
@@ -216,139 +216,86 @@ function getOffPisteRecommendation(conditions: ChamonixConditions): SkiRecommend
 }
 
 export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const conditions = useMemo(() => analyzeConditions(weather), [weather]);
   const onPiste = useMemo(() => getOnPisteRecommendation(conditions), [conditions]);
   const offPiste = useMemo(() => getOffPisteRecommendation(conditions), [conditions]);
 
-  const conditionLabel = {
-    powder: "Powder Day",
-    packed: "Packed Powder",
-    groomed: "Groomed",
-    icy: "Hard/Icy",
-    spring: "Spring Snow",
-    variable: "Variable",
-  };
-
-  const conditionEmoji = {
-    powder: "❄️",
-    packed: "🎿",
-    groomed: "✨",
-    icy: "🧊",
-    spring: "☀️",
-    variable: "🌤️",
-  };
-
   return (
     <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4 shadow-sm">
-      {/* Header */}
-      <div className="p-4 border-b border-gray-100">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-xl">{conditionEmoji[conditions.baseCondition]}</span>
-            <h3 className="font-semibold text-gray-900">Today&apos;s Ski Selection</h3>
+      {/* Compact Header - always visible */}
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full p-3 flex items-center justify-between hover:bg-gray-50 transition-colors"
+      >
+        <div className="flex items-center gap-3">
+          <span className="text-lg">🎿</span>
+          <div className="text-left">
+            <h3 className="font-medium text-gray-900 text-sm">Ski Selection</h3>
+            <p className="text-xs text-gray-500">
+              Piste: {onPiste.waistWidth} • Off-piste: {offPiste.waistWidth}
+            </p>
           </div>
-          <span className="text-sm px-2 py-1 bg-gray-100 rounded-full text-gray-700">
-            {conditionLabel[conditions.baseCondition]} • {conditions.avgTemperature}°C
-          </span>
         </div>
-        {conditions.freshSnow24h > 0 && (
-          <p className="text-sm text-blue-600 mt-1">+{conditions.freshSnow24h}cm fresh in last 24h</p>
-        )}
-      </div>
+        <svg
+          className={`w-4 h-4 text-gray-400 transition-transform ${isExpanded ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
 
-      {/* Two-column recommendations */}
-      <div className="grid grid-cols-2 divide-x divide-gray-100">
-        {/* On-Piste */}
-        <div className="p-4">
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-lg">🎿</span>
-            <h4 className="font-semibold text-gray-800">On-Piste</h4>
-          </div>
-
-          <div className="space-y-2">
-            <div>
+      {/* Expanded content */}
+      {isExpanded && (
+        <>
+          <div className="grid grid-cols-2 divide-x divide-gray-100 border-t border-gray-100">
+            {/* On-Piste */}
+            <div className="p-3">
+              <div className="flex items-center gap-1.5 mb-2">
+                <span className="text-sm">🎿</span>
+                <h4 className="font-medium text-gray-800 text-sm">On-Piste</h4>
+              </div>
               <p className="text-sm font-medium text-indigo-600">{onPiste.category}</p>
-              <p className="text-xs text-gray-500">{onPiste.waistWidth} waist</p>
+              <p className="text-xs text-gray-500 mb-2">{onPiste.waistWidth} • {onPiste.profile}</p>
+              {onPiste.reasoning.slice(0, 2).map((r, i) => (
+                <p key={i} className="text-xs text-gray-600 flex items-start gap-1">
+                  <span className="text-indigo-400">•</span>{r}
+                </p>
+              ))}
             </div>
 
-            <div className="text-xs text-gray-600">
-              <p className="font-medium text-gray-700 mb-1">Profile</p>
-              <p>{onPiste.profile}</p>
-            </div>
-
-            {onPiste.reasoning.length > 0 && (
-              <ul className="text-xs text-gray-600 space-y-0.5">
-                {onPiste.reasoning.slice(0, 2).map((r, i) => (
-                  <li key={i} className="flex items-start gap-1">
-                    <span className="text-indigo-400">•</span>
-                    <span>{r}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
-
-            {onPiste.tips.length > 0 && (
-              <div className="pt-2 border-t border-gray-100">
-                {onPiste.tips.slice(0, 2).map((tip, i) => (
-                  <p key={i} className="text-xs text-amber-700 flex items-start gap-1">
-                    <span>💡</span>
-                    <span>{tip}</span>
-                  </p>
-                ))}
+            {/* Off-Piste */}
+            <div className="p-3 bg-slate-50">
+              <div className="flex items-center gap-1.5 mb-2">
+                <span className="text-sm">⛷️</span>
+                <h4 className="font-medium text-gray-800 text-sm">Off-Piste</h4>
               </div>
-            )}
-          </div>
-        </div>
-
-        {/* Off-Piste */}
-        <div className="p-4 bg-gradient-to-br from-slate-50 to-blue-50">
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-lg">⛷️</span>
-            <h4 className="font-semibold text-gray-800">Off-Piste</h4>
-          </div>
-
-          <div className="space-y-2">
-            <div>
               <p className="text-sm font-medium text-indigo-600">{offPiste.category}</p>
-              <p className="text-xs text-gray-500">{offPiste.waistWidth} waist</p>
+              <p className="text-xs text-gray-500 mb-2">{offPiste.waistWidth} • {offPiste.profile}</p>
+              {offPiste.reasoning.slice(0, 2).map((r, i) => (
+                <p key={i} className="text-xs text-gray-600 flex items-start gap-1">
+                  <span className="text-indigo-400">•</span>{r}
+                </p>
+              ))}
             </div>
+          </div>
 
-            <div className="text-xs text-gray-600">
-              <p className="font-medium text-gray-700 mb-1">Profile</p>
-              <p>{offPiste.profile}</p>
-            </div>
-
-            {offPiste.reasoning.length > 0 && (
-              <ul className="text-xs text-gray-600 space-y-0.5">
-                {offPiste.reasoning.slice(0, 2).map((r, i) => (
-                  <li key={i} className="flex items-start gap-1">
-                    <span className="text-indigo-400">•</span>
-                    <span>{r}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
-
-            {offPiste.tips.length > 0 && (
-              <div className="pt-2 border-t border-blue-100">
-                {offPiste.tips.slice(0, 2).map((tip, i) => (
-                  <p key={i} className="text-xs text-amber-700 flex items-start gap-1">
-                    <span>{tip.startsWith('⚠️') ? '' : '💡'}</span>
-                    <span>{tip}</span>
+          {/* Tips row */}
+          {(onPiste.tips.length > 0 || offPiste.tips.length > 0) && (
+            <div className="px-3 py-2 bg-amber-50 border-t border-amber-100">
+              <div className="flex flex-wrap gap-x-4 gap-y-1">
+                {[...onPiste.tips.slice(0, 1), ...offPiste.tips.slice(0, 1)].map((tip, i) => (
+                  <p key={i} className="text-xs text-amber-700 flex items-center gap-1">
+                    <span>{tip.startsWith('⚠️') ? '' : '💡'}</span>{tip}
                   </p>
                 ))}
               </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <div className="px-4 py-2 bg-gray-50 border-t border-gray-100">
-        <p className="text-xs text-gray-400 text-center">
-          Calibrated for Chamonix&apos;s maritime snow climate
-        </p>
-      </div>
+            </div>
+          )}
+        </>
+      )}
     </div>
   );
 }
