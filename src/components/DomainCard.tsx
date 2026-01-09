@@ -166,11 +166,14 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
       {/* Expanded content */}
       {isExpanded && (
         <div className="border-t border-gray-100">
-          {/* Lifts */}
+          {/* Lifts Section */}
           {lifts.length > 0 && (
-            <div className="px-4 py-3">
-              <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
-                Lifts
+            <div className="px-4 py-3 bg-slate-50">
+              <h4 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
+                <span className="text-base">🚡</span> Lifts
+                <span className="text-gray-400 font-normal normal-case">
+                  ({openLifts}/{totalLifts} open)
+                </span>
               </h4>
               <div className="space-y-1">
                 {lifts.map((lift, idx) => {
@@ -178,7 +181,7 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
                   return (
                     <div
                       key={idx}
-                      className="flex items-center justify-between py-1.5 border-b border-gray-50 last:border-0"
+                      className="flex items-center justify-between py-1.5 border-b border-slate-200 last:border-0"
                     >
                       <div className="flex items-center gap-2 min-w-0">
                         <span className={cn("text-base font-medium w-5", colour)}>
@@ -195,6 +198,40 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
                     </div>
                   );
                 })}
+              </div>
+            </div>
+          )}
+
+          {/* Pistes/Runs Section */}
+          {hasPistes && (
+            <div className="px-4 py-3 bg-white border-t border-gray-100">
+              <h4 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
+                <span className="text-base">⛷️</span> Runs
+              </h4>
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                {pistes
+                  .filter((p) => p.difficulty)
+                  .sort((a, b) => {
+                    const order = { V: 0, B: 1, R: 2, N: 3 };
+                    return (order[a.difficulty as keyof typeof order] ?? 4) - (order[b.difficulty as keyof typeof order] ?? 4);
+                  })
+                  .map((piste, idx) => {
+                    const { icon, colour } = getLiftStatusIcon(piste.status);
+                    return (
+                      <div
+                        key={idx}
+                        className="flex items-center gap-2 py-1"
+                      >
+                        <span className={cn("text-sm font-medium w-4", colour)}>
+                          {icon}
+                        </span>
+                        <PisteDifficultyIcon difficulty={piste.difficulty} size={14} />
+                        <span className="text-sm text-gray-700 truncate">
+                          {piste.piste_name}
+                        </span>
+                      </div>
+                    );
+                  })}
               </div>
             </div>
           )}
