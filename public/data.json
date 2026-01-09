@@ -2,7 +2,7 @@
   "metadata": {
     "resort": "Chamonix",
     "source": "Lumiplan",
-    "scrape_timestamp": "2026-01-09T13:42:19.000Z",
+    "scrape_timestamp": "2026-01-09T14:37:43.000Z",
     "source_url": "https://bulletin.lumiplan.pro/displayAll.php"
   },
   "weather": [
@@ -451,10 +451,10 @@
         "sector": "FLEGERE",
         "lift_name": "TS EVETTES",
         "lift_type": "TS",
-        "status": "P",
+        "status": "O",
         "opening_time": "09:45",
         "closing_time": "16:20",
-        "status_message": "Problème électrique - info a 14h45"
+        "status_message": ""
       },
       {
         "sector": "FLEGERE",
@@ -628,10 +628,10 @@
         "sector": "LES HOUCHES",
         "lift_name": "TS ECOLE",
         "lift_type": "TS",
-        "status": "O",
+        "status": "P",
         "opening_time": "09:00",
         "closing_time": "16:25",
-        "status_message": ""
+        "status_message": "Problème technique - info a 15h25"
       },
       {
         "sector": "LES HOUCHES",
@@ -682,10 +682,10 @@
         "sector": "LES HOUCHES",
         "lift_name": "TK MONT-BLANC",
         "lift_type": "TK",
-        "status": "P",
+        "status": "O",
         "opening_time": "09:00",
         "closing_time": "16:30",
-        "status_message": "Problème technique - pas de délai"
+        "status_message": ""
       },
       {
         "sector": "LES HOUCHES",
@@ -837,24 +837,6 @@
     "AIGUILLE DU MIDI": [
       {
         "sector": "AIGUILLE DU MIDI",
-        "piste_name": "TPH AIGUILLE DU MIDI",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "AIGUILLE DU MIDI",
-        "piste_name": "TPH PLAN DE L'AIGUILLE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "AIGUILLE DU MIDI",
         "piste_name": "ASCENSEUR",
         "difficulty": null,
         "type": "A",
@@ -866,7 +848,7 @@
         "sector": "AIGUILLE DU MIDI",
         "piste_name": "CINEMA IMMERSIF 4D",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -875,7 +857,7 @@
         "sector": "AIGUILLE DU MIDI",
         "piste_name": "PALIER HYPOXIE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermé journée"
@@ -884,7 +866,7 @@
         "sector": "AIGUILLE DU MIDI",
         "piste_name": "PAS DANS LE VIDE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermé journée"
@@ -893,7 +875,7 @@
         "sector": "AIGUILLE DU MIDI",
         "piste_name": "TUBE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermé journée"
@@ -902,7 +884,7 @@
         "sector": "AIGUILLE DU MIDI",
         "piste_name": "Z ARETE SOMMITALE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -927,96 +909,6 @@
       }
     ],
     "BREVENT": [
-      {
-        "sector": "BREVENT",
-        "piste_name": "FUNI 2000",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TPH BREVENT",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TC PLANPRAZ",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TSD COL CORNU",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TS CHARLANON",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TS PARSA",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TS SOURCES",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TK ALTITUDE 2000",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TK SAMARAN",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "BREVENT",
-        "piste_name": "TK SAVOY",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": ""
-      },
       {
         "sector": "BREVENT",
         "piste_name": "TAPIS SAVOY",
@@ -1047,7 +939,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "SAMARAN",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1056,7 +948,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "SAVOY",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1074,7 +966,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "ACCES FLEGERE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1083,7 +975,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "BLANCHOTS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1092,7 +984,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "COMBE VIOZ",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1110,7 +1002,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "SOURCES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1119,7 +1011,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "STADE GEANT",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1128,7 +1020,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "TETRAS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1137,7 +1029,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "CHARLANON",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1146,7 +1038,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "COL CORNU",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1155,7 +1047,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "LES LYCOPODES",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1164,7 +1056,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "VARIANTE VIOZ",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1173,7 +1065,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "BOUQUETINS",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1182,7 +1074,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "CHARLES BOZON",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1191,7 +1083,7 @@
       {
         "sector": "BREVENT",
         "piste_name": "NANTS",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1201,7 +1093,7 @@
         "sector": "BREVENT",
         "piste_name": "PARC DVA",
         "difficulty": null,
-        "type": "PARC",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "3 BALISES EN EMISSION"
@@ -1210,7 +1102,7 @@
         "sector": "BREVENT",
         "piste_name": "STADE DE SLALOM FILME CHRONOMETRE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -1219,89 +1111,8 @@
     "DOMAINE DE BALME": [
       {
         "sector": "DOMAINE DE BALME",
-        "piste_name": "TC CHARAMILLON",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée : Vent fort"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TC VALLORCINE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TSD AUTANNES",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TSD TETE DE BALME",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TK AIGUILLETTE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TK ARVE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TK COL",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TK DES POSETTES",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
-        "piste_name": "TK PLAN DES REINES",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "DOMAINE DE BALME",
         "piste_name": "ALPAGES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1310,7 +1121,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "ARVE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1319,7 +1130,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "COL",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1328,7 +1139,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "ESSERTS BAS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1337,7 +1148,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "ESSERTS HAUT",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1346,7 +1157,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "LES CRECHES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1355,7 +1166,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "LIAISON BALME",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1364,7 +1175,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "LIAISON ESSERTS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1373,7 +1184,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "POSETTES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1382,7 +1193,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "RETOUR CHARAMILLON",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1391,7 +1202,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "STADE BALME",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1400,7 +1211,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "STADE ESF",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1409,7 +1220,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "AIGUILLETTE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1418,7 +1229,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "BECHAT",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1427,7 +1238,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "BELLE PLACE BAS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1436,7 +1247,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "BELLE PLACE HAUT",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1445,7 +1256,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "CAISETS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1454,7 +1265,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "ECURIES",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1463,7 +1274,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "FORET VERTE",
-        "difficulty": "V",
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1472,7 +1283,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "LIAISON ECURIE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1481,7 +1292,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "SOLONGES BAS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1490,7 +1301,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "SOLONGES HAUT",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1499,7 +1310,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "VARIANTE ESSERTS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1508,7 +1319,7 @@
       {
         "sector": "DOMAINE DE BALME",
         "piste_name": "MARMOTTES",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1545,67 +1356,13 @@
         "sector": "DOMAINE DE BALME",
         "piste_name": "PARC DVA BLM",
         "difficulty": null,
-        "type": "PARC",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermée : mauvaise conditions"
       }
     ],
     "FLEGERE": [
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TC FLEGERE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TSD INDEX",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TS CHAVANNE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TS EVETTES",
-        "difficulty": null,
-        "type": "A",
-        "status": "P",
-        "grooming_level": null,
-        "status_message": "Problème électrique - info a 14h45"
-      },
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TS TRAPPE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "FLEGERE",
-        "piste_name": "TK FLORIA",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
       {
         "sector": "FLEGERE",
         "piste_name": "LIAISON FLEGERE/BREVENT",
@@ -1618,7 +1375,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "LIBELLULES",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1627,7 +1384,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "TRAPPE",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1636,7 +1393,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "CHAVANNE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1645,7 +1402,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "EVETTES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1654,7 +1411,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "RETOUR FLEGERE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1663,7 +1420,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "ACCES TK FLORIA",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1672,7 +1429,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "CROCHUES",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1681,7 +1438,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "INDEX",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1690,7 +1447,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "LACHENAL",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1699,7 +1456,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "PYLONES",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1708,7 +1465,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "REMUAZ BAS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1717,7 +1474,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "REMUAZ HAUT",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1726,7 +1483,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "FLORIA",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1735,7 +1492,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "FRANCOIS BONLIEU",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1744,7 +1501,7 @@
       {
         "sector": "FLEGERE",
         "piste_name": "PRAZ",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1799,7 +1556,7 @@
         "sector": "FLEGERE",
         "piste_name": "MONT BLANC LEGEND",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "En préparation"
@@ -1808,7 +1565,7 @@
         "sector": "FLEGERE",
         "piste_name": "PARC DVA FLG",
         "difficulty": null,
-        "type": "PARC",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "En préparation"
@@ -1817,7 +1574,7 @@
         "sector": "FLEGERE",
         "piste_name": "PARCOURS XS LIBELLULES",
         "difficulty": null,
-        "type": "PARC",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -1826,7 +1583,7 @@
         "sector": "FLEGERE",
         "piste_name": "PISTE VITESSE CHRONOMETREE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermée : mauvaise conditions"
@@ -1835,62 +1592,8 @@
     "GRANDS MONTETS": [
       {
         "sector": "GRANDS MONTETS",
-        "piste_name": "TC BOCHARD",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "GRANDS MONTETS",
-        "piste_name": "TC PLAN JORAN",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "GRANDS MONTETS",
-        "piste_name": "TSD LA HERSE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "GRANDS MONTETS",
-        "piste_name": "TSD TABE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "GRANDS MONTETS",
-        "piste_name": "TS RETOUR PENDANT",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "GRANDS MONTETS",
-        "piste_name": "TK MARMOTTONS",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": "Prévision d'ouverture pour 10h"
-      },
-      {
-        "sector": "GRANDS MONTETS",
         "piste_name": "AROLLES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1899,7 +1602,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "COQS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1908,7 +1611,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "CROIX DE LOGNAN",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1917,7 +1620,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "MARMOTTONS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1926,7 +1629,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "PRADIAN",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1935,7 +1638,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "TABE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1944,7 +1647,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "BOCHARD BAS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1953,7 +1656,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "BOCHARD HAUT",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1962,7 +1665,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "COMBES",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1971,7 +1674,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "PIERRE A RIC",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1980,7 +1683,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "BLANCHOTS",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1989,7 +1692,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "CHAMOIS",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -1998,7 +1701,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "PYLONES BAS",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2007,7 +1710,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "REMUAZ",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2016,7 +1719,7 @@
       {
         "sector": "GRANDS MONTETS",
         "piste_name": "VARIANTE HOTEL",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2053,7 +1756,7 @@
         "sector": "GRANDS MONTETS",
         "piste_name": "ZONE LUDIQUE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "En préparation"
@@ -2062,44 +1765,8 @@
     "LA VORMAINE": [
       {
         "sector": "LA VORMAINE",
-        "piste_name": "TK MINI VORMAINE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LA VORMAINE",
-        "piste_name": "TK VORMAINE 1",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé : danger d'avalanche"
-      },
-      {
-        "sector": "LA VORMAINE",
-        "piste_name": "TK VORMAINE 2",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé : danger d'avalanche"
-      },
-      {
-        "sector": "LA VORMAINE",
-        "piste_name": "TK VORMAINE 3",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LA VORMAINE",
         "piste_name": "GRANDS CHAMPS",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2108,7 +1775,7 @@
       {
         "sector": "LA VORMAINE",
         "piste_name": "Les CRYS",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2117,7 +1784,7 @@
       {
         "sector": "LA VORMAINE",
         "piste_name": "MINI VORMAINE",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2126,7 +1793,7 @@
       {
         "sector": "LA VORMAINE",
         "piste_name": "LA MORAINE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2145,121 +1812,13 @@
         "sector": "LA VORMAINE",
         "piste_name": "ESPACE LUGE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
       }
     ],
     "LES HOUCHES": [
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TPH BELLEVUE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TC PRARION",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TSD MELEZES",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS CROZAT",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS ECOLE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS KANDAHAR",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS MAISONNEUVE",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS SCHUSS DES DAMES",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TS VOZA-PRARION",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TK GRANDS BOIS",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TK MONT-BLANC",
-        "difficulty": null,
-        "type": "A",
-        "status": "P",
-        "grooming_level": null,
-        "status_message": "Problème technique - pas de délai"
-      },
-      {
-        "sector": "LES HOUCHES",
-        "piste_name": "TK PLANCERTS",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": ""
-      },
       {
         "sector": "LES HOUCHES",
         "piste_name": "TAPIS ECOLE",
@@ -2281,7 +1840,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "ECOLE.",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2290,7 +1849,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MONT BLANC",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2299,7 +1858,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "ABBAYE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2308,7 +1867,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "CHAMOIS.",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2317,7 +1876,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "JORLAND RETOUR TELEPHERIQUE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2326,7 +1885,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "LA CHA",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2335,7 +1894,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "LES AILLOUDS INTERMEDIAIRE LA CARBOTTE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2344,7 +1903,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "LES AILLOUDS RETOUR TELECABINE",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2353,7 +1912,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "LES AILLOUDS SUPERIEUR COL DE VOZA",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2362,7 +1921,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MELEZES",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2371,7 +1930,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "PISTE A LEON",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2380,7 +1939,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "RETOUR PRARION",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2389,7 +1948,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "BELLEVUE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2398,7 +1957,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "COL DE VOZA",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2407,7 +1966,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "FONTAINE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2416,7 +1975,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "GRAND BOIS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2425,7 +1984,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MAISONNEUVE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2434,7 +1993,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MUR EPINES INFERIEUR",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2443,7 +2002,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MUR EPINES INTERMEDIAIRE",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2452,7 +2011,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "MUR EPINES SUPERIEUR",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2461,7 +2020,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "PLAN DU CRET INFERIEUR",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2470,7 +2029,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "PLAN DU CRET SUPERIEUR",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2479,7 +2038,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "PLANCERTS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2488,7 +2047,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "PRAZ DRU",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2497,7 +2056,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "STADE CHAMOIS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2506,7 +2065,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "STADE FIS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2515,7 +2074,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "STADE GRAND BOIS",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2524,7 +2083,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "TABLE D'ORIENTATION",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2533,7 +2092,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "VARIANTE HOTEL",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2542,7 +2101,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "KANDAHAR INFERIEUR SHUSS BATTENDIER",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2551,7 +2110,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "KANDAHAR INTERMEDIAIRE",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2560,7 +2119,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "KANDAHAR SUPERIEUR LA CASSURE",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2569,7 +2128,7 @@
       {
         "sector": "LES HOUCHES",
         "piste_name": "SHUSS DES DAMES",
-        "difficulty": null,
+        "difficulty": "N",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2642,7 +2201,7 @@
         "sector": "LES HOUCHES",
         "piste_name": "ESPACE DVA LHSG",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -2651,7 +2210,7 @@
         "sector": "LES HOUCHES",
         "piste_name": "SLALOM FILME CHRONOMETRE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -2660,7 +2219,7 @@
         "sector": "LES HOUCHES",
         "piste_name": "SNOWTUBBING",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -2669,26 +2228,8 @@
     "LES CHOSALETS": [
       {
         "sector": "LES CHOSALETS",
-        "piste_name": "TK GRAND CHOSALET",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES CHOSALETS",
-        "piste_name": "TK PETIT CHOSALET",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "LES CHOSALETS",
         "piste_name": "BABY AUX CHOSALETS",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2697,7 +2238,7 @@
       {
         "sector": "LES CHOSALETS",
         "piste_name": "FORET AUX CHOSALETS",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2706,7 +2247,7 @@
       {
         "sector": "LES CHOSALETS",
         "piste_name": "CHOSALETS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2716,7 +2257,7 @@
         "sector": "LES CHOSALETS",
         "piste_name": "Espace Luge",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Petite restauration ouverte"
@@ -2725,35 +2266,8 @@
     "PLANARDS": [
       {
         "sector": "PLANARDS",
-        "piste_name": "TS PLANARDS",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "PLANARDS",
-        "piste_name": "TK BABY",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "PLANARDS",
-        "piste_name": "TK GREPON",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
-      {
-        "sector": "PLANARDS",
         "piste_name": "BLAITIERE",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2762,7 +2276,7 @@
       {
         "sector": "PLANARDS",
         "piste_name": "GREPON",
-        "difficulty": null,
+        "difficulty": "V",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2771,7 +2285,7 @@
       {
         "sector": "PLANARDS",
         "piste_name": "PLANARDS",
-        "difficulty": null,
+        "difficulty": "B",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2780,7 +2294,7 @@
       {
         "sector": "PLANARDS",
         "piste_name": "STADE DE SLALOM",
-        "difficulty": null,
+        "difficulty": "R",
         "type": "A",
         "status": "O",
         "grooming_level": null,
@@ -2790,7 +2304,7 @@
         "sector": "PLANARDS",
         "piste_name": "LUGE DE CHAMONIX",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
@@ -2799,31 +2313,13 @@
         "sector": "PLANARDS",
         "piste_name": "PARC D'ATTRACTIONS",
         "difficulty": null,
-        "type": "PARC",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": ""
       }
     ],
     "POYA": [
-      {
-        "sector": "POYA",
-        "piste_name": "TK POYA 1",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermé journée"
-      },
-      {
-        "sector": "POYA",
-        "piste_name": "TK POYA 2",
-        "difficulty": null,
-        "type": "A",
-        "status": "O",
-        "grooming_level": null,
-        "status_message": ""
-      },
       {
         "sector": "POYA",
         "piste_name": "FIL NEIGE POYA",
@@ -2891,7 +2387,7 @@
         "sector": "POYA",
         "piste_name": "JARDIN ENFANTS",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermé journée"
@@ -2901,15 +2397,6 @@
       {
         "sector": "SITE DU MONTENVERS",
         "piste_name": "TRAIN MONTENVERS MER DE GLACE",
-        "difficulty": null,
-        "type": "A",
-        "status": "F",
-        "grooming_level": null,
-        "status_message": "Fermée : mauvaise conditions"
-      },
-      {
-        "sector": "SITE DU MONTENVERS",
-        "piste_name": "TC MER DE GLACE",
         "difficulty": null,
         "type": "A",
         "status": "F",
@@ -2947,7 +2434,7 @@
         "sector": "SITE DU MONTENVERS",
         "piste_name": "GLACIORIUM",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermée : mauvaise conditions"
@@ -2956,7 +2443,7 @@
         "sector": "SITE DU MONTENVERS",
         "piste_name": "GROTTE DE GLACE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermée : mauvaise conditions"
@@ -2965,7 +2452,7 @@
         "sector": "SITE DU MONTENVERS",
         "piste_name": "TEMPLE DE LA NATURE",
         "difficulty": null,
-        "type": "A",
+        "type": "ZL",
         "status": "O",
         "grooming_level": null,
         "status_message": "Fermée : mauvaise conditions"
@@ -3017,7 +2504,7 @@
     "pistes_open_red": null,
     "pistes_open_black": null,
     "pistes_total": null,
-    "last_update_timestamp": "09/01/2026 à 14:41",
+    "last_update_timestamp": "09/01/2026 à 15:36",
     "raw_stats": [
       [
         "09",
@@ -3104,7 +2591,7 @@
         "01"
       ],
       [
-        "23",
+        "25",
         "77"
       ],
       [
@@ -3184,7 +2671,7 @@
         "28"
       ],
       [
-        "2",
+        "3",
         "6"
       ],
       [
@@ -4930,24 +4417,24 @@
     ]
   },
   "calculated_summary": {
-    "lifts_open": 37,
+    "lifts_open": 38,
     "lifts_total": 74,
     "pistes_by_difficulty": {
       "green": {
-        "open": 4,
-        "total": 4
+        "open": 16,
+        "total": 16
       },
       "blue": {
-        "open": 2,
-        "total": 2
+        "open": 42,
+        "total": 42
       },
       "red": {
-        "open": 2,
-        "total": 2
+        "open": 46,
+        "total": 46
       },
       "black": {
-        "open": 1,
-        "total": 1
+        "open": 17,
+        "total": 17
       }
     }
   }
