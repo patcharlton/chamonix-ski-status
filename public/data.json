@@ -1,0 +1,4954 @@
+{
+  "metadata": {
+    "resort": "Chamonix",
+    "source": "Lumiplan",
+    "scrape_timestamp": "2026-01-09T13:42:19.000Z",
+    "source_url": "https://bulletin.lumiplan.pro/displayAll.php"
+  },
+  "weather": [
+    {
+      "location_name": "Aiguille du Midi",
+      "elevation_m": 3842,
+      "temp_morning_c": -13,
+      "temp_afternoon_c": -13,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 72,
+      "wind_direction": "EST",
+      "snow_depth_cm": 80,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 90,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Brévent",
+      "elevation_m": 2525,
+      "temp_morning_c": -7,
+      "temp_afternoon_c": -8,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 40,
+      "wind_direction": "SUD OUEST",
+      "snow_depth_cm": 135,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 109,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Balme Tour-Vallorcine",
+      "elevation_m": 2270,
+      "temp_morning_c": -6,
+      "temp_afternoon_c": -7,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 36,
+      "wind_direction": "SUD OUEST",
+      "snow_depth_cm": 90,
+      "snow_quality": "DOUCE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 48,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Flégère",
+      "elevation_m": 2385,
+      "temp_morning_c": -7,
+      "temp_afternoon_c": -7,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 30,
+      "wind_direction": "EST",
+      "snow_depth_cm": 160,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 58,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Grands Montets",
+      "elevation_m": 2765,
+      "temp_morning_c": -8,
+      "temp_afternoon_c": -7,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 100,
+      "wind_direction": "NORD OUEST",
+      "snow_depth_cm": 140,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 46,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Chamonix",
+      "elevation_m": 1035,
+      "temp_morning_c": -2,
+      "temp_afternoon_c": -2,
+      "weather_code_morning": null,
+      "wind_speed_kmh": null,
+      "wind_direction": null,
+      "snow_depth_cm": 43,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": null,
+      "last_snowfall_cm": 2,
+      "last_snowfall_date": "08/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Les Houches",
+      "elevation_m": 1900,
+      "temp_morning_c": 1,
+      "temp_afternoon_c": 1,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 10,
+      "wind_direction": null,
+      "snow_depth_cm": 70,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 72,
+      "last_snowfall_date": "09/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Montenvers",
+      "elevation_m": 1913,
+      "temp_morning_c": -4,
+      "temp_afternoon_c": -7,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 15,
+      "wind_direction": "NORD OUEST",
+      "snow_depth_cm": 80,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": 5,
+      "last_snowfall_date": "08/01/2026",
+      "avalanche_risk": 4
+    },
+    {
+      "location_name": "Tramway du Mont-Blanc",
+      "elevation_m": 1794,
+      "temp_morning_c": -4,
+      "temp_afternoon_c": -6,
+      "weather_code_morning": null,
+      "wind_speed_kmh": 19,
+      "wind_direction": "SUD OUEST",
+      "snow_depth_cm": 2,
+      "snow_quality": "FRAICHE",
+      "rain_snow_limit_m": 800,
+      "last_snowfall_cm": null,
+      "last_snowfall_date": "07/01/2026",
+      "avalanche_risk": 4
+    }
+  ],
+  "lifts": {
+    "AIGUILLE DU MIDI": [
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "TPH AIGUILLE DU MIDI",
+        "lift_type": "TPH",
+        "status": "F",
+        "opening_time": "08:20",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "TPH PLAN DE L'AIGUILLE",
+        "lift_type": "TPH",
+        "status": "F",
+        "opening_time": "08:10",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "ASCENSEUR",
+        "lift_type": "ASCENSEUR",
+        "status": "F",
+        "opening_time": "08:40",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      }
+    ],
+    "BREVENT": [
+      {
+        "sector": "BREVENT",
+        "lift_name": "FUNI 2000",
+        "lift_type": "FUNI",
+        "status": "F",
+        "opening_time": "09:45",
+        "closing_time": "16:45",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TPH BREVENT",
+        "lift_type": "TPH",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TC PLANPRAZ",
+        "lift_type": "TC",
+        "status": "F",
+        "opening_time": "09:45",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TSD COL CORNU",
+        "lift_type": "TSD",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TS CHARLANON",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:20",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TS PARSA",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:45",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TS SOURCES",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TK ALTITUDE 2000",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "10:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TK SAMARAN",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "10:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TK SAVOY",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:45",
+        "closing_time": "16:45",
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TAPIS SAVOY",
+        "lift_type": "TAPIS",
+        "status": "O",
+        "opening_time": "10:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "BLANCHOTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "NANTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "DOMAINE DE BALME": [
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TC CHARAMILLON",
+        "lift_type": "TC",
+        "status": "F",
+        "opening_time": "09:30",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée : Vent fort"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TC VALLORCINE",
+        "lift_type": "TC",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:00",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TSD AUTANNES",
+        "lift_type": "TSD",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TSD TETE DE BALME",
+        "lift_type": "TSD",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TK AIGUILLETTE",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TK ARVE",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:30",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TK COL",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TK DES POSETTES",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "TK PLAN DES REINES",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "10:00",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "ESSERTS BAS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "ESSERTS HAUT",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "LIAISON ESSERTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "CAISETS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé journée : Vent fort"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "VARIANTE ESSERTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "FLEGERE": [
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TC FLEGERE",
+        "lift_type": "TC",
+        "status": "O",
+        "opening_time": "09:35",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TSD INDEX",
+        "lift_type": "TSD",
+        "status": "F",
+        "opening_time": "09:15",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TS CHAVANNE",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:15",
+        "closing_time": "15:45",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TS EVETTES",
+        "lift_type": "TS",
+        "status": "P",
+        "opening_time": "09:45",
+        "closing_time": "16:20",
+        "status_message": "Problème électrique - info a 14h45"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TS TRAPPE",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:45",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TK FLORIA",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:15",
+        "closing_time": "12:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "ACCES TK FLORIA",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "GRANDS MONTETS": [
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TC BOCHARD",
+        "lift_type": "TC",
+        "status": "F",
+        "opening_time": "09:10",
+        "closing_time": "15:50",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TC PLAN JORAN",
+        "lift_type": "TC",
+        "status": "O",
+        "opening_time": "10:00",
+        "closing_time": "16:45",
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TSD LA HERSE",
+        "lift_type": "TSD",
+        "status": "F",
+        "opening_time": "09:20",
+        "closing_time": "16:00",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TSD TABE",
+        "lift_type": "TSD",
+        "status": "O",
+        "opening_time": "10:00",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TS RETOUR PENDANT",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:30",
+        "closing_time": "16:15",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TK MARMOTTONS",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "10:00",
+        "closing_time": "16:00",
+        "status_message": "Prévision d'ouverture pour 10h"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "BLANCHOTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "LA VORMAINE": [
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "TK MINI VORMAINE",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "TK VORMAINE 1",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "TK VORMAINE 2",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "TK VORMAINE 3",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      }
+    ],
+    "LES HOUCHES": [
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TPH BELLEVUE",
+        "lift_type": "TPH",
+        "status": "O",
+        "opening_time": "08:45",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TC PRARION",
+        "lift_type": "TC",
+        "status": "O",
+        "opening_time": "08:45",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TSD MELEZES",
+        "lift_type": "TSD",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:20",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS CROZAT",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS ECOLE",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:25",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS KANDAHAR",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS MAISONNEUVE",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS SCHUSS DES DAMES",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TS VOZA-PRARION",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TK GRANDS BOIS",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TK MONT-BLANC",
+        "lift_type": "TK",
+        "status": "P",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Problème technique - pas de délai"
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TK PLANCERTS",
+        "lift_type": "TS",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TAPIS ECOLE",
+        "lift_type": "TAPIS",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:25",
+        "status_message": "Mauvaise condition meteo"
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "PLANCERTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "LES CHOSALETS": [
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "TK GRAND CHOSALET",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "TK PETIT CHOSALET",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "BABY AUX CHOSALETS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "FORET AUX CHOSALETS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "CHOSALETS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "PLANARDS": [
+      {
+        "sector": "PLANARDS",
+        "lift_name": "TS PLANARDS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": "10:30",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "TK BABY",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "TK GREPON",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      }
+    ],
+    "POYA": [
+      {
+        "sector": "POYA",
+        "lift_name": "TK POYA 1",
+        "lift_type": "TK",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "TK POYA 2",
+        "lift_type": "TK",
+        "status": "O",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "JARDIN ENFANTS",
+        "lift_type": "TS",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé journée"
+      }
+    ],
+    "SITE DU MONTENVERS": [
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "TC MER DE GLACE",
+        "lift_type": "TC",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "14:30",
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "TRAMWAY MONT BLANC": []
+  },
+  "pistes": {
+    "AIGUILLE DU MIDI": [
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "TPH AIGUILLE DU MIDI",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "TPH PLAN DE L'AIGUILLE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "ASCENSEUR",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "CINEMA IMMERSIF 4D",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "PALIER HYPOXIE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "PAS DANS LE VIDE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "TUBE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "Z ARETE SOMMITALE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "3842 Summit (cafétéria)",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "piste_name": "Le 3842 (restaurant)",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      }
+    ],
+    "BREVENT": [
+      {
+        "sector": "BREVENT",
+        "piste_name": "FUNI 2000",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TPH BREVENT",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TC PLANPRAZ",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TSD COL CORNU",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TS CHARLANON",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TS PARSA",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TS SOURCES",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TK ALTITUDE 2000",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TK SAMARAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TK SAVOY",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TAPIS SAVOY",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "LIAISON BREVENT/FLEGERE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "RETOUR PLAN PRAZ VERTE",
+        "difficulty": "V",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "SAMARAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "SAVOY",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "VERTE 2000",
+        "difficulty": "V",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "ACCES FLEGERE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "BLANCHOTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "COMBE VIOZ",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "RETOUR BREVENT BLEUE",
+        "difficulty": "B",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "SOURCES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "STADE GEANT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "TETRAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "CHARLANON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "COL CORNU",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "LES LYCOPODES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "VARIANTE VIOZ",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "BOUQUETINS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "CHARLES BOZON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "NANTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "PARC DVA",
+        "difficulty": null,
+        "type": "PARC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "3 BALISES EN EMISSION"
+      },
+      {
+        "sector": "BREVENT",
+        "piste_name": "STADE DE SLALOM FILME CHRONOMETRE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      }
+    ],
+    "DOMAINE DE BALME": [
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TC CHARAMILLON",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée : Vent fort"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TC VALLORCINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TSD AUTANNES",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TSD TETE DE BALME",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TK AIGUILLETTE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TK ARVE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TK COL",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TK DES POSETTES",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "TK PLAN DES REINES",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "ALPAGES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "ARVE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "COL",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "ESSERTS BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "ESSERTS HAUT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "LES CRECHES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "LIAISON BALME",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "LIAISON ESSERTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "POSETTES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "RETOUR CHARAMILLON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "STADE BALME",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "STADE ESF",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "AIGUILLETTE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "BECHAT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "BELLE PLACE BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "BELLE PLACE HAUT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "CAISETS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée : Vent fort"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "ECURIES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "FORET VERTE",
+        "difficulty": "V",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "LIAISON ECURIE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "SOLONGES BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "SOLONGES HAUT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "VARIANTE ESSERTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "MARMOTTES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "SUMMIT PARK",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "RAQUETTES AIGUILLETTE DES POSETTES (0.27 km)",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "RAQUETTES AUTANNES (0.035 km)",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "piste_name": "PARC DVA BLM",
+        "difficulty": null,
+        "type": "PARC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "FLEGERE": [
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TC FLEGERE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TSD INDEX",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TS CHAVANNE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TS EVETTES",
+        "difficulty": null,
+        "type": "A",
+        "status": "P",
+        "grooming_level": null,
+        "status_message": "Problème électrique - info a 14h45"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TS TRAPPE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TK FLORIA",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "LIAISON FLEGERE/BREVENT",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "LIBELLULES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "TRAPPE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "CHAVANNE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "EVETTES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "RETOUR FLEGERE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "ACCES TK FLORIA",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "CROCHUES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "INDEX",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "LACHENAL",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "PYLONES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "REMUAZ BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "REMUAZ HAUT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "FLORIA",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "FRANCOIS BONLIEU",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "PRAZ",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "BOARDERCROSS",
+        "difficulty": null,
+        "type": "BC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "ITINERAIRE SKI DE RANDO PIC JANVIER (0 km)",
+        "difficulty": null,
+        "type": "SR",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "RAQUETTE INDEX (1.8 km)",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "RAQUETTE LA RAVERETTAZ (1.5 km)",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "RAQUETTE LA TETE AU BUY (2.3 km)",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "MONT BLANC LEGEND",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "PARC DVA FLG",
+        "difficulty": null,
+        "type": "PARC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "PARCOURS XS LIBELLULES",
+        "difficulty": null,
+        "type": "PARC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "piste_name": "PISTE VITESSE CHRONOMETREE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "GRANDS MONTETS": [
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TC BOCHARD",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TC PLAN JORAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TSD LA HERSE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TSD TABE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TS RETOUR PENDANT",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TK MARMOTTONS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Prévision d'ouverture pour 10h"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "AROLLES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "COQS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "CROIX DE LOGNAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "MARMOTTONS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "PRADIAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "TABE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "BOCHARD BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "BOCHARD HAUT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "COMBES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "PIERRE A RIC",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "BLANCHOTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "CHAMOIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "PYLONES BAS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "REMUAZ",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "VARIANTE HOTEL",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "BOARDER CROSS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "LA TRAPETTE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En attente"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "REFUGE LOGNAN",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En attente"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "piste_name": "ZONE LUDIQUE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "En préparation"
+      }
+    ],
+    "LA VORMAINE": [
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "TK MINI VORMAINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "TK VORMAINE 1",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "TK VORMAINE 2",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "TK VORMAINE 3",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "GRANDS CHAMPS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "Les CRYS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "MINI VORMAINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "LA MORAINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "ESPACE FREESTYLE VORMAINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "piste_name": "ESPACE LUGE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      }
+    ],
+    "LES HOUCHES": [
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TPH BELLEVUE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TC PRARION",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TSD MELEZES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS CROZAT",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS ECOLE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS KANDAHAR",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS MAISONNEUVE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS SCHUSS DES DAMES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TS VOZA-PRARION",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TK GRANDS BOIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TK MONT-BLANC",
+        "difficulty": null,
+        "type": "A",
+        "status": "P",
+        "grooming_level": null,
+        "status_message": "Problème technique - pas de délai"
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TK PLANCERTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TAPIS ECOLE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Mauvaise condition meteo"
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TLC COL DE VOZA",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "ECOLE.",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MONT BLANC",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "ABBAYE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "CHAMOIS.",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "JORLAND RETOUR TELEPHERIQUE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "LA CHA",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "LES AILLOUDS INTERMEDIAIRE LA CARBOTTE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "LES AILLOUDS RETOUR TELECABINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "LES AILLOUDS SUPERIEUR COL DE VOZA",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MELEZES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "PISTE A LEON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "RETOUR PRARION",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "BELLEVUE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "COL DE VOZA",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "FONTAINE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "GRAND BOIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MAISONNEUVE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MUR EPINES INFERIEUR",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MUR EPINES INTERMEDIAIRE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "MUR EPINES SUPERIEUR",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "PLAN DU CRET INFERIEUR",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "PLAN DU CRET SUPERIEUR",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "PLANCERTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "PRAZ DRU",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "STADE CHAMOIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "STADE FIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "STADE GRAND BOIS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "TABLE D'ORIENTATION",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "VARIANTE HOTEL",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "KANDAHAR INFERIEUR SHUSS BATTENDIER",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "KANDAHAR INTERMEDIAIRE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "KANDAHAR SUPERIEUR LA CASSURE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "SHUSS DES DAMES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "SNOWPARK.",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "BOARDER CROSS.",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "SKICAMP",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "LUGE DES HOUCHES",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "RAQUETTES BELLEVUE",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "RAQUETTES BOUCLE DE LA CHARME",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "RAQUETTES/FOND PRARION",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "ESPACE DVA LHSG",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "SLALOM FILME CHRONOMETRE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "piste_name": "SNOWTUBBING",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      }
+    ],
+    "LES CHOSALETS": [
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "TK GRAND CHOSALET",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "TK PETIT CHOSALET",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "BABY AUX CHOSALETS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "FORET AUX CHOSALETS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "CHOSALETS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES CHOSALETS",
+        "piste_name": "Espace Luge",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Petite restauration ouverte"
+      }
+    ],
+    "PLANARDS": [
+      {
+        "sector": "PLANARDS",
+        "piste_name": "TS PLANARDS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "TK BABY",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "TK GREPON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "BLAITIERE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "GREPON",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "PLANARDS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "STADE DE SLALOM",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "LUGE DE CHAMONIX",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "piste_name": "PARC D'ATTRACTIONS",
+        "difficulty": null,
+        "type": "PARC",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      }
+    ],
+    "POYA": [
+      {
+        "sector": "POYA",
+        "piste_name": "TK POYA 1",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "TK POYA 2",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "FIL NEIGE POYA",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "TLC POYA",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "FIL NEIGE POYA VERTE",
+        "difficulty": "V",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "POYA 1 BLEUE",
+        "difficulty": "B",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "POYA 1 ROUGE",
+        "difficulty": "R",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "POYA 2 ROUGE",
+        "difficulty": "R",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "POYA 2 NOIRE",
+        "difficulty": "N",
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "piste_name": "JARDIN ENFANTS",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermé journée"
+      }
+    ],
+    "SITE DU MONTENVERS": [
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "TRAIN MONTENVERS MER DE GLACE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "TC MER DE GLACE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "RAQUETTES A LA RENCONTRE DU RAIL",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "RAQUETTES PANORAMIQUE MER DE  GLACE",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "RAQUETTES SOUS LE VIADUC",
+        "difficulty": null,
+        "type": "SN",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "GLACIORIUM",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "GROTTE DE GLACE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "TEMPLE DE LA NATURE",
+        "difficulty": null,
+        "type": "A",
+        "status": "O",
+        "grooming_level": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "BAR DES GLACIERS",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "HOTEL REFUGE DU MONTENVERS",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "LE PANORAMIQUE MER DE GLACE",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "piste_name": "RESTAURANT DU MONTENVERS",
+        "difficulty": null,
+        "type": "A",
+        "status": "F",
+        "grooming_level": null,
+        "status_message": null
+      }
+    ],
+    "TRAMWAY MONT BLANC": []
+  },
+  "summary": {
+    "lifts_open": 9,
+    "lifts_total": 1,
+    "pistes_open_green": null,
+    "pistes_open_blue": null,
+    "pistes_open_red": null,
+    "pistes_open_black": null,
+    "pistes_total": null,
+    "last_update_timestamp": "09/01/2026 à 14:41",
+    "raw_stats": [
+      [
+        "09",
+        "01"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "08",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "08",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "07",
+        "01"
+      ],
+      [
+        "4",
+        "5"
+      ],
+      [
+        "09",
+        "01"
+      ],
+      [
+        "10",
+        "01"
+      ],
+      [
+        "23",
+        "77"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "39",
+        "120"
+      ],
+      [
+        "9",
+        "16"
+      ],
+      [
+        "17",
+        "42"
+      ],
+      [
+        "12",
+        "45"
+      ],
+      [
+        "1",
+        "17"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "2",
+        "11"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "20"
+      ],
+      [
+        "0",
+        "9"
+      ],
+      [
+        "0",
+        "28"
+      ],
+      [
+        "2",
+        "6"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "5",
+        "24"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "7",
+        "19"
+      ],
+      [
+        "2",
+        "4"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "10",
+        "14"
+      ],
+      [
+        "27",
+        "43"
+      ],
+      [
+        "2",
+        "4"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "1",
+        "4"
+      ],
+      [
+        "0",
+        "3"
+      ],
+      [
+        "1",
+        "5"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "2",
+        "11"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "20"
+      ],
+      [
+        "3",
+        "3"
+      ],
+      [
+        "6",
+        "6"
+      ],
+      [
+        "1",
+        "4"
+      ],
+      [
+        "2",
+        "6"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "0",
+        "6"
+      ],
+      [
+        "0",
+        "4"
+      ],
+      [
+        "2",
+        "13"
+      ],
+      [
+        "0",
+        "2"
+      ],
+      [
+        "1",
+        "4"
+      ]
+    ]
+  },
+  "attractions": {
+    "AIGUILLE DU MIDI": [
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "CINEMA IMMERSIF 4D",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "12:30",
+        "closing_time": "17:30",
+        "status_message": ""
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "PALIER HYPOXIE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "08:20",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "PAS DANS LE VIDE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "08:20",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "TUBE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "08:20",
+        "closing_time": "15:00",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "Z ARETE SOMMITALE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "3842 Summit (cafétéria)",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "08:45",
+        "closing_time": "16:00",
+        "status_message": null
+      },
+      {
+        "sector": "AIGUILLE DU MIDI",
+        "lift_name": "Le 3842 (restaurant)",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "12:00",
+        "closing_time": "14:30",
+        "status_message": null
+      }
+    ],
+    "BREVENT": [
+      {
+        "sector": "BREVENT",
+        "lift_name": "LIAISON BREVENT/FLEGERE",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "RETOUR PLAN PRAZ VERTE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "SAMARAN",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "SAVOY",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "VERTE 2000",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "ACCES FLEGERE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "COMBE VIOZ",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "RETOUR BREVENT BLEUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "SOURCES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "STADE GEANT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "TETRAS",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "CHARLANON",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "COL CORNU",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "LES LYCOPODES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "VARIANTE VIOZ",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "BOUQUETINS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "CHARLES BOZON",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "PARC DVA",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "3 BALISES EN EMISSION"
+      },
+      {
+        "sector": "BREVENT",
+        "lift_name": "STADE DE SLALOM FILME CHRONOMETRE",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "DOMAINE DE BALME": [
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "ALPAGES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "ARVE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "COL",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "LES CRECHES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "LIAISON BALME",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "POSETTES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "RETOUR CHARAMILLON",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "STADE BALME",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "STADE ESF",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "AIGUILLETTE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "BECHAT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "BELLE PLACE BAS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "BELLE PLACE HAUT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "ECURIES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "FORET VERTE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "LIAISON ECURIE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "SOLONGES BAS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "SOLONGES HAUT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "MARMOTTES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "SUMMIT PARK",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "RAQUETTES AIGUILLETTE DES POSETTES (0.27 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "RAQUETTES AUTANNES (0.035 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "DOMAINE DE BALME",
+        "lift_name": "PARC DVA BLM",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "FLEGERE": [
+      {
+        "sector": "FLEGERE",
+        "lift_name": "LIAISON FLEGERE/BREVENT",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:15",
+        "closing_time": "16:15",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "LIBELLULES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "TRAPPE",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "CHAVANNE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "EVETTES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "RETOUR FLEGERE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "CROCHUES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "INDEX",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "LACHENAL",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "PYLONES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "REMUAZ BAS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "REMUAZ HAUT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "FLORIA",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "FRANCOIS BONLIEU",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "PRAZ",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "BOARDERCROSS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "ITINERAIRE SKI DE RANDO PIC JANVIER (0 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "RAQUETTE INDEX (1.8 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "RAQUETTE LA RAVERETTAZ (1.5 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "RAQUETTE LA TETE AU BUY (2.3 km)",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "MONT BLANC LEGEND",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "PARC DVA FLG",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En préparation"
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "PARCOURS XS LIBELLULES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "FLEGERE",
+        "lift_name": "PISTE VITESSE CHRONOMETREE",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      }
+    ],
+    "GRANDS MONTETS": [
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "AROLLES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "COQS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "CROIX DE LOGNAN",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "MARMOTTONS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "PRADIAN",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "TABE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "BOCHARD BAS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "BOCHARD HAUT",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "COMBES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "PIERRE A RIC",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "CHAMOIS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "PYLONES BAS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "REMUAZ",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "VARIANTE HOTEL",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "BOARDER CROSS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "LA TRAPETTE",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En attente"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "REFUGE LOGNAN",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En attente"
+      },
+      {
+        "sector": "GRANDS MONTETS",
+        "lift_name": "ZONE LUDIQUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "En préparation"
+      }
+    ],
+    "LA VORMAINE": [
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "GRANDS CHAMPS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "Les CRYS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "MINI VORMAINE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "LA MORAINE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "ESPACE FREESTYLE VORMAINE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé : danger d'avalanche"
+      },
+      {
+        "sector": "LA VORMAINE",
+        "lift_name": "ESPACE LUGE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "LES HOUCHES": [
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TLC COL DE VOZA",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "ECOLE.",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MONT BLANC",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "ABBAYE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "CHAMOIS.",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "JORLAND RETOUR TELEPHERIQUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "LA CHA",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "LES AILLOUDS INTERMEDIAIRE LA CARBOTTE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "LES AILLOUDS RETOUR TELECABINE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "LES AILLOUDS SUPERIEUR COL DE VOZA",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MELEZES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "PISTE A LEON",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "RETOUR PRARION",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "BELLEVUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "COL DE VOZA",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "FONTAINE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "GRAND BOIS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MAISONNEUVE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MUR EPINES INFERIEUR",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MUR EPINES INTERMEDIAIRE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "MUR EPINES SUPERIEUR",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "PLAN DU CRET INFERIEUR",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "PLAN DU CRET SUPERIEUR",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "PRAZ DRU",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "STADE CHAMOIS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "STADE FIS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "STADE GRAND BOIS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "TABLE D'ORIENTATION",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "VARIANTE HOTEL",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "KANDAHAR INFERIEUR SHUSS BATTENDIER",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "KANDAHAR INTERMEDIAIRE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "KANDAHAR SUPERIEUR LA CASSURE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "SHUSS DES DAMES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "SNOWPARK.",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "BOARDER CROSS.",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "SKICAMP",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "LUGE DES HOUCHES",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "RAQUETTES BELLEVUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "RAQUETTES BOUCLE DE LA CHARME",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "RAQUETTES/FOND PRARION",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "ESPACE DVA LHSG",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "SLALOM FILME CHRONOMETRE",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "LES HOUCHES",
+        "lift_name": "SNOWTUBBING",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      }
+    ],
+    "LES CHOSALETS": [
+      {
+        "sector": "LES CHOSALETS",
+        "lift_name": "Espace Luge",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Petite restauration ouverte"
+      }
+    ],
+    "PLANARDS": [
+      {
+        "sector": "PLANARDS",
+        "lift_name": "BLAITIERE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "GREPON",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "PLANARDS",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "STADE DE SLALOM",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "LUGE DE CHAMONIX",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "11:00",
+        "closing_time": "17:30",
+        "status_message": ""
+      },
+      {
+        "sector": "PLANARDS",
+        "lift_name": "PARC D'ATTRACTIONS",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": "11:00",
+        "closing_time": "17:30",
+        "status_message": ""
+      }
+    ],
+    "POYA": [
+      {
+        "sector": "POYA",
+        "lift_name": "FIL NEIGE POYA",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "TLC POYA",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "16:30",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "FIL NEIGE POYA VERTE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "POYA 1 BLEUE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "POYA 1 ROUGE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "POYA 2 ROUGE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": ""
+      },
+      {
+        "sector": "POYA",
+        "lift_name": "POYA 2 NOIRE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Fermé journée"
+      }
+    ],
+    "SITE DU MONTENVERS": [
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "TRAIN MONTENVERS MER DE GLACE",
+        "lift_type": "TR",
+        "status": "F",
+        "opening_time": "10:00",
+        "closing_time": "16:00",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "RAQUETTES A LA RENCONTRE DU RAIL",
+        "lift_type": "TR",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "RAQUETTES PANORAMIQUE MER DE  GLACE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "RAQUETTES SOUS LE VIADUC",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": null,
+        "closing_time": null,
+        "status_message": "Mauvaise condition"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "GLACIORIUM",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "GROTTE DE GLACE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "10:30",
+        "closing_time": "14:30",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "TEMPLE DE LA NATURE",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": "Fermée : mauvaise conditions"
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "BAR DES GLACIERS",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "HOTEL REFUGE DU MONTENVERS",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "LE PANORAMIQUE MER DE GLACE",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": null
+      },
+      {
+        "sector": "SITE DU MONTENVERS",
+        "lift_name": "RESTAURANT DU MONTENVERS",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:30",
+        "closing_time": "16:00",
+        "status_message": null
+      }
+    ],
+    "TRAMWAY MONT BLANC": [
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T1 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "09:00",
+        "closing_time": "09:54",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T2 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:00",
+        "closing_time": "10:56",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T3 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "10:00",
+        "closing_time": "10:54",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T4 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "11:00",
+        "closing_time": "11:56",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T5 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "11:00",
+        "closing_time": "11:54",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T6 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "12:00",
+        "closing_time": "12:56",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T9 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "13:00",
+        "closing_time": "13:54",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T10 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "14:00",
+        "closing_time": "14:56",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T11 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "14:00",
+        "closing_time": "14:54",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T12 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "15:00",
+        "closing_time": "15:56",
+        "status_message": "Fermé journée"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T13 Départ",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "15:00",
+        "closing_time": "15:50",
+        "status_message": "Col de voza-Bellevue fermé"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T14 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "O",
+        "opening_time": "15:55",
+        "closing_time": "16:49",
+        "status_message": "Bellevue-Col de Voza fermé"
+      },
+      {
+        "sector": "TRAMWAY MONT BLANC",
+        "lift_name": "T20 Retour",
+        "lift_type": "UNKNOWN",
+        "status": "F",
+        "opening_time": "08:30",
+        "closing_time": "09:30",
+        "status_message": "Fermé journée"
+      }
+    ]
+  },
+  "calculated_summary": {
+    "lifts_open": 37,
+    "lifts_total": 74,
+    "pistes_by_difficulty": {
+      "green": {
+        "open": 4,
+        "total": 4
+      },
+      "blue": {
+        "open": 2,
+        "total": 2
+      },
+      "red": {
+        "open": 2,
+        "total": 2
+      },
+      "black": {
+        "open": 1,
+        "total": 1
+      }
+    }
+  }
+}
