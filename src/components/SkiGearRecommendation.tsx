@@ -2,6 +2,13 @@
 
 import { useState, useMemo } from "react";
 import { WeatherStation } from "@/types/ski-data";
+import {
+  ChevronDown,
+  Mountain,
+  Map,
+  Lightbulb,
+  AlertTriangle,
+} from "lucide-react";
 
 interface SkiGearRecommendationProps {
   weather: WeatherStation[];
@@ -222,14 +229,14 @@ export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
   const offPiste = useMemo(() => getOffPisteRecommendation(conditions), [conditions]);
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4 shadow-sm">
+    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
       {/* Compact Header - always visible */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}
         className="w-full p-3 flex items-center justify-between hover:bg-gray-50 transition-colors"
       >
         <div className="flex items-center gap-3">
-          <span className="text-lg">🎿</span>
+          <Mountain className="w-5 h-5 text-indigo-500" />
           <div className="text-left">
             <h3 className="font-medium text-gray-900 text-sm">Ski Selection</h3>
             <p className="text-xs text-gray-500">
@@ -237,14 +244,9 @@ export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
             </p>
           </div>
         </div>
-        <svg
+        <ChevronDown
           className={`w-4 h-4 text-gray-400 transition-transform ${isExpanded ? "rotate-180" : ""}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
+        />
       </button>
 
       {/* Expanded content */}
@@ -254,7 +256,7 @@ export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
             {/* On-Piste */}
             <div className="p-3">
               <div className="flex items-center gap-1.5 mb-2">
-                <span className="text-sm">🎿</span>
+                <Map className="w-4 h-4 text-indigo-400" />
                 <h4 className="font-medium text-gray-800 text-sm">On-Piste</h4>
               </div>
               <p className="text-sm font-medium text-indigo-600">{onPiste.category}</p>
@@ -269,7 +271,7 @@ export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
             {/* Off-Piste */}
             <div className="p-3 bg-slate-50">
               <div className="flex items-center gap-1.5 mb-2">
-                <span className="text-sm">⛷️</span>
+                <Mountain className="w-4 h-4 text-indigo-400" />
                 <h4 className="font-medium text-gray-800 text-sm">Off-Piste</h4>
               </div>
               <p className="text-sm font-medium text-indigo-600">{offPiste.category}</p>
@@ -286,11 +288,20 @@ export function SkiGearRecommendation({ weather }: SkiGearRecommendationProps) {
           {(onPiste.tips.length > 0 || offPiste.tips.length > 0) && (
             <div className="px-3 py-2 bg-amber-50 border-t border-amber-100">
               <div className="flex flex-wrap gap-x-4 gap-y-1">
-                {[...onPiste.tips.slice(0, 1), ...offPiste.tips.slice(0, 1)].map((tip, i) => (
-                  <p key={i} className="text-xs text-amber-700 flex items-center gap-1">
-                    <span>{tip.startsWith('⚠️') ? '' : '💡'}</span>{tip}
-                  </p>
-                ))}
+                {[...onPiste.tips.slice(0, 1), ...offPiste.tips.slice(0, 1)].map((tip, i) => {
+                  const isWarning = tip.includes('avalanche') || tip.includes('risk');
+                  const displayTip = tip.replace(/^⚠️\s*/, '');
+                  return (
+                    <p key={i} className="text-xs text-amber-700 flex items-center gap-1">
+                      {isWarning ? (
+                        <AlertTriangle className="w-3 h-3" />
+                      ) : (
+                        <Lightbulb className="w-3 h-3" />
+                      )}
+                      {displayTip}
+                    </p>
+                  );
+                })}
               </div>
             </div>
           )}

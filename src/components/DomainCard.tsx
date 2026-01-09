@@ -7,11 +7,18 @@ import {
   getStatusBgClass,
   getLiftStatusIcon,
   formatTemp,
-  getWindArrow,
   getSnowQualityLabel,
   cn,
 } from "@/lib/utils";
 import { LiftTypeIcon, PisteDifficultyIcon } from "./Icons";
+import {
+  ChevronDown,
+  CableCar,
+  Mountain,
+  Snowflake,
+  Wind,
+  Sparkles,
+} from "lucide-react";
 
 interface DomainCardProps {
   name: string;
@@ -86,12 +93,16 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
             </div>
             <div className="flex items-center gap-4 mt-2 text-sm text-white/90">
               {weather.wind_speed_kmh !== null && (
-                <span>
-                  {getWindArrow(weather.wind_direction)} {weather.wind_speed_kmh} km/h
+                <span className="flex items-center gap-1">
+                  <Wind className="w-3.5 h-3.5" />
+                  {weather.wind_speed_kmh} km/h
                 </span>
               )}
               {weather.snow_depth_cm !== null && (
-                <span>❄️ {weather.snow_depth_cm}cm</span>
+                <span className="flex items-center gap-1">
+                  <Snowflake className="w-3.5 h-3.5" />
+                  {weather.snow_depth_cm}cm
+                </span>
               )}
               {weather.snow_quality && (
                 <span className="bg-white/20 px-2 py-0.5 rounded text-xs">
@@ -152,14 +163,12 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
             </div>
           )}
 
-          <span
+          <ChevronDown
             className={cn(
-              "text-gray-400 transition-transform ml-2",
+              "w-4 h-4 text-gray-400 transition-transform ml-2",
               isExpanded && "rotate-180"
             )}
-          >
-            ▼
-          </span>
+          />
         </div>
       </button>
 
@@ -170,7 +179,8 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
           {lifts.length > 0 && (
             <div className="px-4 py-3 bg-slate-50">
               <h4 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
-                <span className="text-base">🚡</span> Lifts
+                <CableCar className="w-4 h-4 text-slate-500" />
+                Lifts
                 <span className="text-gray-400 font-normal normal-case">
                   ({openLifts}/{totalLifts} open)
                 </span>
@@ -206,7 +216,8 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
           {hasPistes && (
             <div className="px-4 py-3 bg-white border-t border-gray-100">
               <h4 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
-                <span className="text-base">⛷️</span> Runs
+                <Mountain className="w-4 h-4 text-slate-500" />
+                Runs
               </h4>
               <div className="grid grid-cols-2 gap-x-4 gap-y-1">
                 {pistes
@@ -238,9 +249,10 @@ export function DomainCard({ name, weather, lifts, pistes }: DomainCardProps) {
 
           {/* New snow highlight */}
           {weather?.last_snowfall_cm && weather.last_snowfall_cm > 10 && (
-            <div className="px-4 py-2 bg-blue-50 border-t border-blue-100">
+            <div className="px-4 py-2 bg-blue-50 border-t border-blue-100 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-blue-500" />
               <span className="text-sm text-blue-700">
-                🎿 +{weather.last_snowfall_cm}cm fresh snow
+                +{weather.last_snowfall_cm}cm fresh snow
               </span>
             </div>
           )}

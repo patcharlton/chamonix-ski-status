@@ -3,12 +3,10 @@
 import { useEffect, useState } from "react";
 import { SkiData } from "@/types/ski-data";
 import { Header } from "@/components/Header";
-import { Recommendation } from "@/components/Recommendation";
+import { QuickStats } from "@/components/QuickStats";
+import { DomainList } from "@/components/DomainList";
 import { ConditionsSummary } from "@/components/ConditionsSummary";
 import { SkiGearRecommendation } from "@/components/SkiGearRecommendation";
-import { StatsBar } from "@/components/StatsBar";
-import { AvalancheAlert } from "@/components/AvalancheAlert";
-import { DomainList } from "@/components/DomainList";
 
 export default function Home() {
   const [data, setData] = useState<SkiData | null>(null);
@@ -58,11 +56,6 @@ export default function Home() {
     );
   }
 
-  // Get highest avalanche risk from weather stations
-  const avalancheRisk = Math.max(
-    ...data.weather.map((w) => w.avalanche_risk ?? 0)
-  );
-
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-lg mx-auto p-4 pb-8">
@@ -71,29 +64,28 @@ export default function Home() {
           lastUpdate={data.summary.last_update_timestamp}
         />
 
-        <Recommendation
+        {/* Quick stats bar - compact overview */}
+        <QuickStats
+          summary={data.calculated_summary}
           weather={data.weather}
-          lifts={data.lifts}
-          pistes={data.pistes}
         />
 
-        <ConditionsSummary weather={data.weather} />
-
-        <AvalancheAlert risk={avalancheRisk} />
-
-        <StatsBar summary={data.calculated_summary} weather={data.weather} />
-
-        <SkiGearRecommendation weather={data.weather} />
-
-        <section>
-          <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-            Ski Areas
-          </h2>
+        {/* Main content: Ski Areas */}
+        <section className="mb-6">
           <DomainList
             weather={data.weather}
             lifts={data.lifts}
             pistes={data.pistes}
           />
+        </section>
+
+        {/* Secondary info - collapsible */}
+        <section className="space-y-3">
+          <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+            More Info
+          </h2>
+          <ConditionsSummary weather={data.weather} />
+          <SkiGearRecommendation weather={data.weather} />
         </section>
       </div>
     </main>
