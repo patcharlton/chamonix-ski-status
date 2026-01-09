@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import { SkiData } from "@/types/ski-data";
 import { Header } from "@/components/Header";
 import { QuickStats } from "@/components/QuickStats";
-import { DomainList } from "@/components/DomainList";
+import { Recommendation } from "@/components/Recommendation";
 import { ConditionsSummary } from "@/components/ConditionsSummary";
+import { DomainList } from "@/components/DomainList";
 import { SkiGearRecommendation } from "@/components/SkiGearRecommendation";
 
 export default function Home() {
@@ -70,8 +71,19 @@ export default function Home() {
           weather={data.weather}
         />
 
+        {/* Recommendation and Conditions - compact expandable */}
+        <Recommendation
+          weather={data.weather}
+          lifts={data.lifts}
+          pistes={data.pistes}
+        />
+        <ConditionsSummary weather={data.weather} />
+
         {/* Main content: Ski Areas */}
-        <section className="mb-6">
+        <section className="mt-4">
+          <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">
+            Ski Areas
+          </h2>
           <DomainList
             weather={data.weather}
             lifts={data.lifts}
@@ -80,11 +92,10 @@ export default function Home() {
         </section>
 
         {/* Secondary info - collapsible */}
-        <section className="space-y-3">
+        <section className="mt-6 space-y-3">
           <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
             More Info
           </h2>
-          <ConditionsSummary weather={data.weather} />
           <SkiGearRecommendation weather={data.weather} />
         </section>
       </div>

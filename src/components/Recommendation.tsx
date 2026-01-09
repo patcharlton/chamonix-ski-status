@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import { WeatherStation, Lift, Piste } from "@/types/ski-data";
+import { MapPin, ChevronDown, Sparkles, Wind, Star, ThumbsUp, AlertTriangle } from "lucide-react";
 
 interface RecommendationProps {
   weather: WeatherStation[];
@@ -88,7 +92,7 @@ function scoreDomain(
     } else if (wind < 60) {
       score += 5;
     } else {
-      score -= 10; // Penalty for high wind
+      score -= 10;
     }
 
     // Fresh snow bonus (0-15 points)
@@ -113,7 +117,7 @@ function scoreDomain(
     // Temperature consideration (not too cold)
     const temp = weather.temp_morning_c ?? 0;
     if (temp >= -10 && temp <= -2) {
-      score += 5; // Ideal skiing temperature
+      score += 5;
     }
   }
 
@@ -133,50 +137,9 @@ function scoreDomain(
   };
 }
 
-function generateRecommendation(top: DomainScore, avalancheRisk: number): string {
-  const parts: string[] = [];
-
-  // Opening line
-  if (top.score > 60) {
-    parts.push(`Head to **${top.name}** today`);
-  } else if (top.score > 40) {
-    parts.push(`**${top.name}** is your best bet today`);
-  } else {
-    parts.push(`Consider **${top.name}** for the best conditions`);
-  }
-
-  // Stats
-  parts.push(`with ${top.liftsOpen}/${top.liftsTotal} lifts open`);
-
-  // Reasons
-  if (top.reasons.length > 0) {
-    if (top.reasons.length === 1) {
-      parts.push(`and ${top.reasons[0]}`);
-    } else {
-      const lastReason = top.reasons.pop();
-      parts.push(`featuring ${top.reasons.join(", ")} and ${lastReason}`);
-    }
-  }
-
-  // Weather detail
-  if (top.weather) {
-    const temp = top.weather.temp_morning_c;
-    if (temp !== null) {
-      parts.push(`at ${temp}°C`);
-    }
-  }
-
-  // Avalanche warning
-  if (avalancheRisk >= 4) {
-    parts.push("— stay on marked pistes due to high avalanche risk");
-  } else if (avalancheRisk === 3) {
-    parts.push("— exercise caution off-piste");
-  }
-
-  return parts.join(" ") + ".";
-}
-
 export function Recommendation({ weather, lifts, pistes }: RecommendationProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   // Find weather for each sector
   const findWeather = (sector: string): WeatherStation | null => {
     const weatherName = sectorToWeatherMap[sector];
@@ -198,19 +161,17 @@ export function Recommendation({ weather, lifts, pistes }: RecommendationProps) 
         findWeather(sector)
       )
     )
-    .filter((s) => s.liftsOpen > 0) // Only consider areas with something open
+    .filter((s) => s.liftsOpen > 0)
     .sort((a, b) => b.score - a.score);
 
   if (scores.length === 0) {
     return (
-      <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4">
-        <div className="flex items-start gap-3">
-          <span className="text-2xl">⚠️</span>
+      <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-3">
+        <div className="p-3 flex items-center gap-3">
+          <AlertTriangle className="w-5 h-5 text-amber-500" />
           <div>
-            <p className="font-medium text-amber-800">Limited skiing today</p>
-            <p className="text-sm text-amber-700 mt-1">
-              Most areas appear to be closed. Check back later for updates.
-            </p>
+            <h3 className="font-medium text-gray-900 text-sm">Limited skiing today</h3>
+            <p className="text-xs text-gray-500">Most areas appear to be closed</p>
           </div>
         </div>
       </div>
@@ -219,37 +180,90 @@ export function Recommendation({ weather, lifts, pistes }: RecommendationProps) 
 
   const top = scores[0];
   const avalancheRisk = Math.max(...weather.map((w) => w.avalanche_risk ?? 0));
-  const recommendation = generateRecommendation({ ...top }, avalancheRisk);
 
-  // Pick an appropriate emoji based on conditions
-  const emoji =
-    top.weather?.snow_quality === "FRAICHE"
-      ? "🎿"
-      : top.weather?.wind_speed_kmh && top.weather.wind_speed_kmh > 40
-      ? "💨"
-      : top.score > 60
-      ? "⭐"
-      : "👍";
+  // Pick icon based on conditions
+  const ConditionIcon = top.weather?.snow_quality === "FRAICHE"
+    ? Sparkles
+    : top.weather?.wind_speed_kmh && top.weather.wind_speed_kmh > 40
+    ? Wind
+    : top.score > 60
+    ? Star
+    : ThumbsUp;
+
+  const iconColor = top.weather?.snow_quality === "FRAICHE"
+    ? "text-blue-500"
+    : top.weather?.wind_speed_kmh && top.weather.wind_speed_kmh > 40
+    ? "text-gray-500"
+    : top.score > 60
+    ? "text-amber-500"
+    : "text-green-500";
 
   return (
-    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-4 mb-4">
-      <div className="flex items-start gap-3">
-        <span className="text-2xl shrink-0">{emoji}</span>
-        <div>
-          <p className="font-medium text-gray-900">Today&apos;s Pick</p>
-          <p
-            className="text-sm text-gray-700 mt-1"
-            dangerouslySetInnerHTML={{
-              __html: recommendation.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"),
-            }}
-          />
-          {scores.length > 1 && (
-            <p className="text-xs text-gray-500 mt-2">
-              Also good: {scores.slice(1, 3).map((s) => s.name).join(", ")}
+    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-3">
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="w-full p-3 flex items-center justify-between hover:bg-gray-50 transition-colors"
+      >
+        <div className="flex items-center gap-3">
+          <MapPin className="w-5 h-5 text-indigo-500" />
+          <div className="text-left">
+            <h3 className="font-medium text-gray-900 text-sm">Today&apos;s Pick</h3>
+            <p className="text-xs text-gray-500">
+              {top.name} • {top.liftsOpen}/{top.liftsTotal} lifts
             </p>
-          )}
+          </div>
         </div>
-      </div>
+        <div className="flex items-center gap-2">
+          <ConditionIcon className={`w-4 h-4 ${iconColor}`} />
+          <ChevronDown
+            className={`w-4 h-4 text-gray-400 transition-transform ${isExpanded ? "rotate-180" : ""}`}
+          />
+        </div>
+      </button>
+
+      {isExpanded && (
+        <div className="px-3 pb-3 border-t border-gray-100 pt-2">
+          <div className="space-y-2">
+            {/* Why this pick */}
+            {top.reasons.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {top.reasons.map((reason, i) => (
+                  <span
+                    key={i}
+                    className="text-xs bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded"
+                  >
+                    {reason}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            {/* Weather info */}
+            {top.weather && (
+              <p className="text-xs text-gray-600">
+                {top.weather.temp_morning_c !== null && `${top.weather.temp_morning_c}°C`}
+                {top.weather.wind_speed_kmh !== null && ` • Wind ${top.weather.wind_speed_kmh}km/h`}
+                {top.weather.snow_depth_cm !== null && ` • ${top.weather.snow_depth_cm}cm base`}
+              </p>
+            )}
+
+            {/* Avalanche warning */}
+            {avalancheRisk >= 3 && (
+              <p className="text-xs text-amber-700 flex items-center gap-1">
+                <AlertTriangle className="w-3 h-3" />
+                {avalancheRisk >= 4 ? "Stay on marked pistes - high avalanche risk" : "Exercise caution off-piste"}
+              </p>
+            )}
+
+            {/* Alternatives */}
+            {scores.length > 1 && (
+              <p className="text-xs text-gray-500">
+                Also good: {scores.slice(1, 3).map((s) => s.name).join(", ")}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

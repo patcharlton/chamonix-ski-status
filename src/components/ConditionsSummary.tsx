@@ -266,7 +266,7 @@ export function ConditionsSummary({ weather }: ConditionsSummaryProps) {
   const topInsight = insights[0];
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm mb-3">
       {/* Collapsible Header */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}
